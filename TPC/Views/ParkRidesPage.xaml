@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TPC.Views.ParkRidesPage"
+             Title="Rides">
+    <ListView
+        x:Name="listRides"
+        BackgroundColor="Transparent"
+        SeparatorColor="Black"
+        >
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell
+                    Text="{Binding name}"
+                    Detail="{Binding wait_time}"
+                    >
+                </TextCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>
