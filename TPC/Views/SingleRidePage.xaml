@@ -4,9 +4,14 @@
              x:Class="TPC.Views.SingleRidePage"
              Title="Ride">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Frame>
+            <HorizontalStackLayout>
+                <Label 
+                       x:Name="ride_Name"
+                       Text="{Binding name}" 
+                       VerticalOptions="Center"></Label>
+                
+            </HorizontalStackLayout>
+        </Frame>
     </VerticalStackLayout>
 </ContentPage>

@@ -1,6 +1,7 @@
 using Newtonsoft.Json;
+using System.Collections.ObjectModel;
 using System.Net;
-
+using System.Windows.Input;
 using TPC.lib;
 
 namespace TPC.Views;
@@ -9,11 +10,20 @@ public partial class ParkRidesPage : ContentPage
 {
 
     public List<Ride> rideList;
+    public Park park;
     //public List<Grouped_List> new_list { get; set; } = new List<Grouped_List>();
 
-    public ParkRidesPage(Park park)
+    public ParkRidesPage(Park inPark)
 	{
 		InitializeComponent();
+        park = new Park();
+        park = inPark;
+    }
+
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+
         rideList = new List<Ride>();
 
 
@@ -51,7 +61,7 @@ public partial class ParkRidesPage : ContentPage
 
                 if (!temp.is_open)
                 {
-                    temp.wait_time=  "Closed";
+                    temp.wait_time = "Closed";
                 }
                 else
                 {
@@ -60,19 +70,41 @@ public partial class ParkRidesPage : ContentPage
                 rideList.Add(temp);
             }
         }
-
-        /*var dict = rideList.GroupBy(o => o.inLand)
-                   .ToDictionary(g => g.Key, g => g.ToList());
-
-
-
-        foreach (KeyValuePair<string, List<Ride>> item in dict)
-        {
-            //new_list.Add(new Grouped_List(item.Key, new List<Ride>(item.Value)));
-        }*/
-
-        //listRides.ItemsSource = new_list;
         listRides.ItemsSource = rideList;
+    }
+
+
+    private void listRides_ItemTapped(object sender, EventArgs e)
+    {
+
+        Ride temp = (Ride)listRides.SelectedItem;
+
+        var rideDetailsPage = new SingleRidePage(temp);
+        RideSearchBar.Text = string.Empty;
+        _ = Navigation.PushAsync(rideDetailsPage);
+
+    }
+
+    private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
+    {
+        List<Ride> rideList2 = new List<Ride>();
+        rideList2 = searchRide(rideList, ((SearchBar)sender).Text);
+
+        var searchList = new ObservableCollection<Ride>(rideList2);
+        listRides.ItemsSource = rideList2;
+    }
+
+    private List<Ride> searchRide(List<Ride> inRideList, string inString)
+    {
+        List<Ride> rideList2 = new List<Ride>();
+        for (int i = 0; i < inRideList.Count; i++)
+        {
+            if (inRideList[i].name.ToLower().Contains(inString.ToLower()))
+            {
+                rideList2.Add(inRideList[i]);
+            }
+        }
+        return rideList2;
     }
 
     Park GetWaitTimes(Park park)

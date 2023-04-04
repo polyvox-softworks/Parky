@@ -11,6 +11,7 @@ C:\Users\Ryan\Documents\GitHub\ThemeParkCompanion\TPC\bin\Debug\net7.0-ios\iossi
 C:\Users\Ryan\Documents\GitHub\ThemeParkCompanion\TPC\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Extensions.Options.dll
 C:\Users\Ryan\Documents\GitHub\ThemeParkCompanion\TPC\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Extensions.Primitives.dll
 C:\Users\Ryan\Documents\GitHub\ThemeParkCompanion\TPC\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Maui.Graphics.dll
+C:\Users\Ryan\Documents\GitHub\ThemeParkCompanion\TPC\bin\Debug\net7.0-ios\iossimulator-x64\Newtonsoft.Json.dll
 C:\Users\Ryan\Documents\GitHub\ThemeParkCompanion\TPC\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.CSharp.dll
 C:\Users\Ryan\Documents\GitHub\ThemeParkCompanion\TPC\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.VisualBasic.Core.dll
 C:\Users\Ryan\Documents\GitHub\ThemeParkCompanion\TPC\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.VisualBasic.dll

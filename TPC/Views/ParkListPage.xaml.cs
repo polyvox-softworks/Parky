@@ -1,4 +1,5 @@
 using Newtonsoft.Json;
+using System.Collections.ObjectModel;
 using System.Net;
 using TPC.lib;
 
@@ -15,8 +16,6 @@ public partial class ParkListPage : ContentPage
 
         companyList = new List<Company>();
         companyList = GetParkList();
-
-
 
         for (int i = 0; i < companyList.Count; i++)
         {
@@ -40,17 +39,41 @@ public partial class ParkListPage : ContentPage
 
 
         listParks.ItemsSource = parkList;
-
     }
 
-    private async void listParks_ItemTapped(object sender, EventArgs e)
+    private void listParks_ItemTapped(object sender, EventArgs e)
 	{
 
         Park temp = (Park)listParks.SelectedItem;
 
         var parkDetailsPage = new ParkRidesPage(temp);
+        SearchBar.Text = string.Empty;
+        _ = Navigation.PushAsync(parkDetailsPage);
+        listParks.SelectedItem = null;
 
-        await Navigation.PushAsync(parkDetailsPage);
+        //await Shell.Current.GoToAsync($"temp", parkDetailsPage);
+    }
+
+    private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
+    {
+        List<Park> parkList2 = new List<Park>();
+        parkList2 = searchPark(parkList, ((SearchBar)sender).Text);
+
+        var searchList = new ObservableCollection<Park>(parkList2);
+        listParks.ItemsSource = parkList2;
+    }
+
+    private List<Park> searchPark(List<Park> inParkList, string inString)
+    {
+        List<Park> parkList2 = new List<Park>();
+        for (int i = 0; i < inParkList.Count; i++)
+        {
+            if (inParkList[i].name.ToLower().Contains(inString.ToLower()))
+            {
+                parkList2.Add(inParkList[i]);
+            }
+        }
+        return parkList2;
     }
 
     private List<Company> GetParkList()
@@ -71,10 +94,5 @@ public partial class ParkListPage : ContentPage
         result = JsonConvert.DeserializeObject<List<Company>>(responseText);
 
         return result;
-    }
-
-    private void listParks_ItemTapped_1(object sender, ItemTappedEventArgs e)
-    {
-
     }
 }

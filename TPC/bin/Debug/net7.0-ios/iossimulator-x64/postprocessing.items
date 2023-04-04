@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="TPC.app/TPC">
+      <BCSymbolMapName>TPC.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>TPC.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>\Users\ryan\Library\Caches\Xamarin\mtbs\builds\TPC\520dd7842ce8b8c42f5b7a0bb9a223866caa3a05f4ef40ec9e16c2ee3d0cb9ca\obj\Debug\net7.0-ios\iossimulator-x64\mtouch-symbols.list</SymbolFile>
+      <DSymName>TPC.app.dSYM</DSymName>
+      <SourceProjectPath>C:\Users\Ryan\Documents\GitHub\ThemeParkCompanion\TPC</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
