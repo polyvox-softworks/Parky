@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Parky.Views.ParkListPage"
+             Title="Parks">
+
+    <Grid
+        Padding="5"
+        RowDefinitions="50,50,*"
+        ColumnDefinitions="*,*,*">
+
+        <Button
+            Grid.Row="0"
+            Grid.Column="0"
+            Margin="2"
+            x:Name="AZButton"
+            Text="A - Z"
+            Clicked="OnAZClicked">
+        </Button>
+        
+        <Button
+            Grid.Row="0"
+            Grid.Column="1"
+            Margin="2"
+            x:Name="ProxButton"
+            Text="Proximity"
+            Clicked="OnProxClicked">
+        </Button>
+        
+        <Button
+            Grid.Row="0"
+            Grid.Column="2"
+            Margin="2"
+            x:Name="CompButton"
+            Text="Company"
+            Clicked="OnCompClicked">
+        </Button>
+
+
+        <SearchBar
+            Grid.Row="1"
+            Grid.ColumnSpan="3"
+            x:Name="SearchBar"
+            Placeholder="Search for a Park"
+            TextChanged="SearchBar_TextChanged">
+        </SearchBar>
+
+        <ListView 
+            Grid.Row="2"
+            Grid.ColumnSpan="3"
+            RowHeight="50"
+            BackgroundColor="Transparent"
+            x:Name="listParks"
+            ItemTapped="listParks_ItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell 
+                        x:Name="parkEntry"
+                        Text="{Binding name}"
+                        Detail="{Binding company}">
+                     
+                    </TextCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</ContentPage>
