@@ -58,11 +58,35 @@
             x:Name="listParks"
             ItemSizingStrategy="MeasureAllItems"
             SelectionMode="Single"
-            SelectionChanged="listParks_ItemTapped">
+            SelectionChanged="listParks_ItemTapped"
+            >
+            
             
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="lib:Park">
-                    <Label Text="{Binding name}"></Label>
+                    <Grid Padding="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Image Grid.RowSpan="2"
+                       Source="{Binding ImageUrl}"
+                       Aspect="AspectFill"
+                       HeightRequest="60"
+                       WidthRequest="60" />
+                        <Label Grid.Column="1"
+                       Text="{Binding name}"
+                       FontAttributes="Bold" />
+                        <Label Grid.Row="1"
+                       Grid.Column="1"
+                       Text="{Binding company}"
+                       FontAttributes="Italic"
+                       VerticalOptions="End" />
+                    </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
             

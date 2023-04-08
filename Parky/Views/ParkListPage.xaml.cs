@@ -11,8 +11,6 @@ public partial class ParkListPage : ContentPage
 {
 
     ObservableCollection<Park> parkList = new ObservableCollection<Park>();
-    double currentLatitude;
-    double currentLongitude;
 
     public ParkListPage()
     {
