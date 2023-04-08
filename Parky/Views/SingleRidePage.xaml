@@ -1,18 +1,44 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Microsoft.Maui.Controls.Maps;assembly=Microsoft.Maui.Controls.Maps"
              x:Class="Parky.Views.SingleRidePage"
              Title="SingleRidePage">
-    
-    <VerticalStackLayout>
-        <Frame>
-            <HorizontalStackLayout>
-                <Label 
-                       x:Name="ride_Name"
-                       Text="{Binding name}" 
-                       VerticalOptions="Center"></Label>
 
-            </HorizontalStackLayout>
-        </Frame>
-    </VerticalStackLayout>
+    <Grid
+        Padding="5"
+        RowDefinitions="80,50,*,*"
+        ColumnDefinitions="*,*,*,*">
+        
+        <Label TextColor="Black"
+               Text="Ride Information"
+               FontSize="20"
+               FontAttributes="Bold" 
+               Grid.Row="0"
+               Grid.ColumnSpan="2"/>
+        
+        <Label TextColor="Black"
+               Text="Current Wait"
+               FontSize="20"
+               FontAttributes="Bold" 
+               Grid.Row="2"
+               Grid.ColumnSpan="2"/>
+
+        <Label 
+               x:Name="rideWait"
+               FontSize="20"
+               FontAttributes="Bold" 
+               Grid.Row="2"
+               Padding="5"
+               Grid.ColumnSpan="2"/>
+
+        <Label 
+               x:Name="haveYouLabel"
+               
+               FontSize="20"
+               FontAttributes="Bold" 
+               Grid.Row="2"
+               Padding="5"
+               Grid.ColumnSpan="2"/>
+    </Grid>
 </ContentPage>

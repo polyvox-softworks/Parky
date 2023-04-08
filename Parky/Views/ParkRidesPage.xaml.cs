@@ -2,7 +2,6 @@ using Microsoft.Maui.Graphics.Converters;
 using Newtonsoft.Json;
 using Parky.lib;
 using System.Collections.ObjectModel;
-using System.Net;
 
 namespace Parky.Views;
 
@@ -19,9 +18,16 @@ public partial class ParkRidesPage : ContentPage
         park = inPark;
     }
 
-    protected async override void OnAppearing()
+    protected override void OnAppearing()
     {
         base.OnAppearing();
+
+        LoadPage();
+    }
+
+
+    public async void LoadPage()
+    {
 
         rideList = new List<Ride>();
         this.Title = park.name;
@@ -231,5 +237,9 @@ public partial class ParkRidesPage : ContentPage
         return park;
     }
 
-
+    private void RefreshView_Refreshing(object sender, EventArgs e)
+    {
+         LoadPage();
+        refreshParks.IsRefreshing = false;
+    }
 }

@@ -85,14 +85,26 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Microsoft.Maui.Controls.Maps": {
+              "target": "Package",
+              "version": "[7.0.59, )"
+            },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
               "version": "[7.0.59, )",
               "autoReferenced": true
             },
+            "Microsoft.Maui.Maps": {
+              "target": "Package",
+              "version": "[7.0.59, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "System.ObjectModel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             },
             "Xamarin.Android.Glide": {
               "target": "Package",
@@ -207,14 +219,26 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Microsoft.Maui.Controls.Maps": {
+              "target": "Package",
+              "version": "[7.0.59, )"
+            },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
               "version": "[7.0.59, )",
               "autoReferenced": true
             },
+            "Microsoft.Maui.Maps": {
+              "target": "Package",
+              "version": "[7.0.59, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "System.ObjectModel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [
@@ -274,14 +298,26 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Microsoft.Maui.Controls.Maps": {
+              "target": "Package",
+              "version": "[7.0.59, )"
+            },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
               "version": "[7.0.59, )",
               "autoReferenced": true
             },
+            "Microsoft.Maui.Maps": {
+              "target": "Package",
+              "version": "[7.0.59, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "System.ObjectModel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [
@@ -342,6 +378,10 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Microsoft.Maui.Controls.Maps": {
+              "target": "Package",
+              "version": "[7.0.59, )"
+            },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
               "version": "[7.0.59, )",
@@ -351,6 +391,10 @@
               "target": "Package",
               "version": "[7.0.59, )",
               "autoReferenced": true
+            },
+            "Microsoft.Maui.Maps": {
+              "target": "Package",
+              "version": "[7.0.59, )"
             },
             "Microsoft.Windows.SDK.BuildTools": {
               "suppressParent": "All",
@@ -366,6 +410,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "System.ObjectModel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [

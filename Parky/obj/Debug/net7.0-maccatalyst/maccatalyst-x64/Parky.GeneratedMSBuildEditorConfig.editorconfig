@@ -34,6 +34,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Parky.Resources.Styles.Sty
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/Ryan/Documents/GitHub/ThemeParkCompanion/Parky/Views/AddParkPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Parky.Views.AddParkPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddParkPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddParkPage.xaml
+
 [C:/Users/Ryan/Documents/GitHub/ThemeParkCompanion/Parky/Views/ParkListPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Parky.Views.ParkListPage.xaml

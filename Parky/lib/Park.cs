@@ -36,5 +36,7 @@ namespace Parky.lib
 
         public Point location { get; set; }
         public double distanceFromCurrentLocation { get; set; }
+
+        public Day schedule {  get; set; }
     }
 }
