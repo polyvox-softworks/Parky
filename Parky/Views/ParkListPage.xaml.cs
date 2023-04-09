@@ -14,6 +14,10 @@ public partial class ParkListPage : ContentPage
     ObservableCollection<Park> parkList;
     bool deleteMode = false;
 
+    bool sortedAZ;
+    bool sortedDistance;
+    bool sortedCompany;
+
     public ParkListPage()
     {
         InitializeComponent();
@@ -122,7 +126,10 @@ public partial class ParkListPage : ContentPage
         var newList = new ObservableCollection<Park>(parkList.OrderBy(o => o.name).ToList());
 
         listParks.ItemsSource = newList;
-        
+
+        sortedAZ = true;
+        sortedCompany = false;
+        sortedDistance = false;
     }
     private async void OnProxClicked(object sender, EventArgs e)
     {
@@ -131,13 +138,15 @@ public partial class ParkListPage : ContentPage
 
         for (int i = 0; i < parkList.Count; i++)
         {
-
-
             parkList[i].distanceFromCurrentLocation = (Math.Pow((parkList[i].location.X - currentLocation.X), 2) +
                 Math.Pow((parkList[i].location.Y - currentLocation.Y), 2));
         }
         newList = new ObservableCollection<Park>(parkList.OrderBy(o => o.distanceFromCurrentLocation).ToList());
         listParks.ItemsSource = newList;
+
+        sortedAZ = false;
+        sortedCompany = false;
+        sortedDistance = true;
     }
 
     private void OnCompClicked(object sender, EventArgs e)
@@ -145,6 +154,10 @@ public partial class ParkListPage : ContentPage
         var newList = new ObservableCollection<Park>(parkList.OrderBy(o => o.company).ToList());
 
         listParks.ItemsSource = newList;
+
+        sortedAZ = false;
+        sortedCompany = true;
+        sortedDistance = false;
     }
 
     private async void listParks_ItemTapped(object sender, EventArgs e)
@@ -153,13 +166,27 @@ public partial class ParkListPage : ContentPage
         {
             MauiProgram.parkList.Remove((Park)listParks.SelectedItem);
             parkList.Remove((Park)listParks.SelectedItem);
-            listParks.ItemsSource = parkList;
+            
             listParks.SelectedItem = null;
             SaveParkList();
             if (parkList.Count == 0)
             {
                 getStartedLabel.IsVisible = true;
             }
+
+            if (sortedAZ)
+            {
+                parkList = new ObservableCollection<Park>(parkList.OrderBy(o => o.name).ToList());
+            }
+            else if (sortedDistance)
+            {
+                parkList = new ObservableCollection<Park>(parkList.OrderBy(o => o.distanceFromCurrentLocation).ToList());
+            }
+            else if (sortedCompany)
+            {
+                parkList = new ObservableCollection<Park>(parkList.OrderBy(o => o.company).ToList());
+            }
+            listParks.ItemsSource = parkList;
         }
         else
         {
