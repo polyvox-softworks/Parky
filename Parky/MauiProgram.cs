@@ -1,14 +1,19 @@
 ﻿using Microsoft.Extensions.Logging;
+using Mopups.Hosting;
+using Parky.lib;
+using System.Collections.ObjectModel;
 
 namespace Parky;
 
 public static class MauiProgram
 {
-	public static MauiApp CreateMauiApp()
+    public static ObservableCollection<Park> parkList = new ObservableCollection<Park>();
+    public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
 		builder
 			.UseMauiApp<App>()
+			.ConfigureMopups()
 			.ConfigureFonts(fonts =>
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

@@ -1,13 +1,69 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+          
+             xmlns:lib="clr-namespace:Parky.lib"
              x:Class="Parky.Views.AddParkPage"
              
              Title="Add a park">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+    <Grid
+        Padding="5"
+        RowDefinitions="50,50,*"
+        ColumnDefinitions="*,*,*">
+
+        <Button
+            Grid.Row="0"
+            Grid.ColumnSpan="3"
+            Margin="2"
+            x:Name="AZButton"
+            Text="Add and close"
+            Clicked="OnSaveandClose">
+        </Button>
+
+        <SearchBar
+            Grid.Row="1"
+            Grid.ColumnSpan="3"
+            x:Name="SearchBar"
+            Placeholder="Search for a Park"
+            TextChanged="SearchBar_TextChanged">
+        </SearchBar>
+
+        <CollectionView 
+            Grid.Row="2"
+            Grid.ColumnSpan="3"
+            BackgroundColor="Transparent"
+            x:Name="listParks"
+            ItemSizingStrategy="MeasureAllItems"
+            SelectionMode="Multiple"
+            
+            >
+
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="lib:Park">
+                    <Grid Padding="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Grid.Column="1"
+                       Text="{Binding name}"
+                       FontAttributes="Bold" />
+                        <Label Grid.Row="1"
+                       Grid.Column="1"
+                       Text="{Binding company}"
+                       FontAttributes="Italic"
+                       VerticalOptions="End" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+        </CollectionView>
+    </Grid>
 </ContentPage>

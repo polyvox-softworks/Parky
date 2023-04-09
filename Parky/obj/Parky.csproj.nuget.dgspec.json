@@ -98,6 +98,10 @@
               "target": "Package",
               "version": "[7.0.59, )"
             },
+            "Mopups": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -232,6 +236,10 @@
               "target": "Package",
               "version": "[7.0.59, )"
             },
+            "Mopups": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -310,6 +318,10 @@
             "Microsoft.Maui.Maps": {
               "target": "Package",
               "version": "[7.0.59, )"
+            },
+            "Mopups": {
+              "target": "Package",
+              "version": "[1.1.1, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -406,6 +418,10 @@
               "target": "Package",
               "version": "[1.2.221209.1, )",
               "autoReferenced": true
+            },
+            "Mopups": {
+              "target": "Package",
+              "version": "[1.1.1, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

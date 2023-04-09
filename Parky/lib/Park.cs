@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Parky.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace Parky.lib
 {
+    [Serializable]
     public class Park
     {
         public Park() { }
@@ -26,6 +28,8 @@ namespace Parky.lib
         [JsonProperty("timezone")]
         public string timezone { get; set; }
 
+        public string img { get; set; }
+
         [JsonProperty("lands")]
         public List<Land> lands { get; set; }
 
@@ -38,5 +42,6 @@ namespace Parky.lib
         public double distanceFromCurrentLocation { get; set; }
 
         public Day schedule {  get; set; }
+
     }
 }

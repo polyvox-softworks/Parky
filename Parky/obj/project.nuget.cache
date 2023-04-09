@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TToyngV7i86M6vCiYLfyYL35j05ay5GwHvLArkb0YwYSGSt3oAabYQkpdODV8UZP+hQu7/wx9vBOmC5DeKv6NQ==",
+  "dgSpecHash": "BDNUGieanxoaGvu1I7xPJ8NPZvMqGCEI1+OPituqEKf+ri7w4Hut4qmvW4yXwz6NaK4ONTAZj8GFuGhZCFaM8g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ryan\\Documents\\GitHub\\ThemeParkCompanion\\Parky\\Parky.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ryan\\.nuget\\packages\\asyncawaitbestpractices\\6.0.4\\asyncawaitbestpractices.6.0.4.nupkg.sha512",
     "C:\\Users\\Ryan\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\Ryan\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\Ryan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
@@ -23,6 +24,7 @@
     "C:\\Users\\Ryan\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
     "C:\\Users\\Ryan\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
+    "C:\\Users\\Ryan\\.nuget\\packages\\mopups\\1.1.1\\mopups.1.1.1.nupkg.sha512",
     "C:\\Users\\Ryan\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Ryan\\.nuget\\packages\\runtime.any.system.collections\\4.3.0\\runtime.any.system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\Ryan\\.nuget\\packages\\runtime.any.system.globalization\\4.3.0\\runtime.any.system.globalization.4.3.0.nupkg.sha512",

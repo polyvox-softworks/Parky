@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net7.0-android33.0": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -226,6 +239,22 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Maps.dll": {
             "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Mopups.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Mopups.dll": {
+            "related": ".aar;.xml"
           }
         }
       },
@@ -2076,6 +2105,19 @@
       }
     },
     "net7.0-android33.0/android-arm": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -2300,6 +2342,22 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Maps.dll": {
             "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Mopups.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Mopups.dll": {
+            "related": ".aar;.xml"
           }
         }
       },
@@ -4150,6 +4208,19 @@
       }
     },
     "net7.0-android33.0/android-arm64": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -4374,6 +4445,22 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Maps.dll": {
             "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Mopups.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Mopups.dll": {
+            "related": ".aar;.xml"
           }
         }
       },
@@ -6224,6 +6311,19 @@
       }
     },
     "net7.0-android33.0/android-x64": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -6448,6 +6548,22 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Maps.dll": {
             "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Mopups.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Mopups.dll": {
+            "related": ".aar;.xml"
           }
         }
       },
@@ -8298,6 +8414,19 @@
       }
     },
     "net7.0-android33.0/android-x86": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -8522,6 +8651,22 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Maps.dll": {
             "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Mopups.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Mopups.dll": {
+            "related": ".aar;.xml"
           }
         }
       },
@@ -10372,6 +10517,19 @@
       }
     },
     "net7.0-android33.0/iossimulator-x64": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -10596,6 +10754,22 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Maps.dll": {
             "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Mopups.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Mopups.dll": {
+            "related": ".aar;.xml"
           }
         }
       },
@@ -12446,6 +12620,19 @@
       }
     },
     "net7.0-android33.0/maccatalyst-x64": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -12670,6 +12857,22 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Maps.dll": {
             "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Mopups.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Mopups.dll": {
+            "related": ".aar;.xml"
           }
         }
       },
@@ -14520,6 +14723,19 @@
       }
     },
     "net7.0-android33.0/win10-x64": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -14744,6 +14960,22 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Maps.dll": {
             "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Mopups.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Mopups.dll": {
+            "related": ".aar;.xml"
           }
         }
       },
@@ -16594,6 +16826,19 @@
       }
     },
     "net7.0-ios16.1": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16821,6 +17066,22 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Mopups.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -17006,6 +17267,19 @@
       }
     },
     "net7.0-ios16.1/android-arm": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17233,6 +17507,22 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Mopups.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -17563,6 +17853,19 @@
       }
     },
     "net7.0-ios16.1/android-arm64": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17790,6 +18093,22 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Mopups.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -18120,6 +18439,19 @@
       }
     },
     "net7.0-ios16.1/android-x64": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18347,6 +18679,22 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Mopups.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -18677,6 +19025,19 @@
       }
     },
     "net7.0-ios16.1/android-x86": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18904,6 +19265,22 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Mopups.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -19234,6 +19611,19 @@
       }
     },
     "net7.0-ios16.1/iossimulator-x64": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19461,6 +19851,22 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Mopups.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -19791,6 +20197,19 @@
       }
     },
     "net7.0-ios16.1/maccatalyst-x64": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20018,6 +20437,22 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Mopups.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -20348,6 +20783,19 @@
       }
     },
     "net7.0-ios16.1/win10-x64": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20575,6 +21023,22 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Mopups.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -20886,6 +21350,19 @@
       }
     },
     "net7.0-maccatalyst16.1": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -21113,6 +21590,22 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Mopups.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -21298,6 +21791,19 @@
       }
     },
     "net7.0-maccatalyst16.1/android-arm": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -21525,6 +22031,22 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Mopups.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -21855,6 +22377,19 @@
       }
     },
     "net7.0-maccatalyst16.1/android-arm64": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -22082,6 +22617,22 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Mopups.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -22412,6 +22963,19 @@
       }
     },
     "net7.0-maccatalyst16.1/android-x64": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -22639,6 +23203,22 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Mopups.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -22969,6 +23549,19 @@
       }
     },
     "net7.0-maccatalyst16.1/android-x86": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -23196,6 +23789,22 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Mopups.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -23526,6 +24135,19 @@
       }
     },
     "net7.0-maccatalyst16.1/iossimulator-x64": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -23753,6 +24375,22 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Mopups.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -24083,6 +24721,19 @@
       }
     },
     "net7.0-maccatalyst16.1/maccatalyst-x64": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -24310,6 +24961,22 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Mopups.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -24640,6 +25307,19 @@
       }
     },
     "net7.0-maccatalyst16.1/win10-x64": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -24867,6 +25547,22 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Mopups.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -25178,6 +25874,19 @@
       }
     },
     "net7.0-windows10.0.19041": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -25545,6 +26254,22 @@
           }
         }
       },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Mopups.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -25728,6 +26453,19 @@
       }
     },
     "net7.0-windows10.0.19041/android-arm": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -26065,6 +26803,22 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Mopups.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -26395,6 +27149,19 @@
       }
     },
     "net7.0-windows10.0.19041/android-arm64": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -26732,6 +27499,22 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Mopups.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -27062,6 +27845,19 @@
       }
     },
     "net7.0-windows10.0.19041/android-x64": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -27399,6 +28195,22 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Mopups.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -27729,6 +28541,19 @@
       }
     },
     "net7.0-windows10.0.19041/android-x86": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -28066,6 +28891,22 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Mopups.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -28396,6 +29237,19 @@
       }
     },
     "net7.0-windows10.0.19041/iossimulator-x64": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -28733,6 +29587,22 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Mopups.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -29063,6 +29933,19 @@
       }
     },
     "net7.0-windows10.0.19041/maccatalyst-x64": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -29402,6 +30285,22 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Mopups.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -29730,6 +30629,19 @@
       }
     },
     "net7.0-windows10.0.19041/win10-x64": {
+      "AsyncAwaitBestPractices/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -30075,6 +30987,22 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Mopups/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.4"
+        },
+        "compile": {
+          "lib/net7.0/Mopups.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Mopups.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -30385,6 +31313,24 @@
     }
   },
   "libraries": {
+    "AsyncAwaitBestPractices/6.0.4": {
+      "sha512": "dO/ZfaT+5DMMnYUCmxAk2s1jEXUTDcgethroMj1kcmedO0MAu6WgvPP4gPYem/0kJASrnBcem+kr5ju3LaNdMw==",
+      "type": "package",
+      "path": "asyncawaitbestpractices/6.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "asyncawaitbestpractices.6.0.4.nupkg.sha512",
+        "asyncawaitbestpractices.nuspec",
+        "lib/netstandard1.0/AsyncAwaitBestPractices.dll",
+        "lib/netstandard1.0/AsyncAwaitBestPractices.xml",
+        "lib/netstandard2.0/AsyncAwaitBestPractices.dll",
+        "lib/netstandard2.0/AsyncAwaitBestPractices.xml",
+        "lib/netstandard2.1/AsyncAwaitBestPractices.dll",
+        "lib/netstandard2.1/AsyncAwaitBestPractices.xml"
+      ]
+    },
     "GoogleGson/2.9.1.1": {
       "sha512": "OreKEL2Yx2u8YhRqv0e+j45cEzoe+fyMEzGN+M/vfBDPsIXQcA6lGdHXO07bTrGn6NNwxY67dyIfbyXx3A7cDA==",
       "type": "package",
@@ -31728,6 +32674,26 @@
         "tools/net5.0/zh-TW/Microsoft.Build.Msix.resources.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
+      ]
+    },
+    "Mopups/1.1.1": {
+      "sha512": "3hyQVRJbPJNZImlDxlV5GwbYGDyDvI6OWJpz/ifGANu1znd9eyCy0FDP9QTFp6pOP97nuMJHOd/wpVFb4nppvA==",
+      "type": "package",
+      "path": "mopups/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net7.0-android33.0/Mopups.aar",
+        "lib/net7.0-android33.0/Mopups.dll",
+        "lib/net7.0-android33.0/Mopups.xml",
+        "lib/net7.0-ios16.1/Mopups.dll",
+        "lib/net7.0-ios16.1/Mopups.xml",
+        "lib/net7.0-maccatalyst16.1/Mopups.dll",
+        "lib/net7.0-maccatalyst16.1/Mopups.xml",
+        "lib/net7.0/Mopups.dll",
+        "lib/net7.0/Mopups.xml",
+        "mopups.1.1.1.nupkg.sha512",
+        "mopups.nuspec"
       ]
     },
     "Newtonsoft.Json/13.0.3": {
@@ -35072,6 +36038,7 @@
       "Microsoft.Maui.Controls.Maps >= 7.0.59",
       "Microsoft.Maui.Graphics >= 7.0.59",
       "Microsoft.Maui.Maps >= 7.0.59",
+      "Mopups >= 1.1.1",
       "Newtonsoft.Json >= 13.0.3",
       "System.ObjectModel >= 4.3.0",
       "Xamarin.Android.Glide >= 4.13.2.2",
@@ -35095,6 +36062,7 @@
       "Microsoft.Maui.Controls.Maps >= 7.0.59",
       "Microsoft.Maui.Graphics >= 7.0.59",
       "Microsoft.Maui.Maps >= 7.0.59",
+      "Mopups >= 1.1.1",
       "Newtonsoft.Json >= 13.0.3",
       "System.ObjectModel >= 4.3.0"
     ],
@@ -35107,6 +36075,7 @@
       "Microsoft.Maui.Controls.Maps >= 7.0.59",
       "Microsoft.Maui.Graphics >= 7.0.59",
       "Microsoft.Maui.Maps >= 7.0.59",
+      "Mopups >= 1.1.1",
       "Newtonsoft.Json >= 13.0.3",
       "System.ObjectModel >= 4.3.0"
     ],
@@ -35122,6 +36091,7 @@
       "Microsoft.Maui.Maps >= 7.0.59",
       "Microsoft.Windows.SDK.BuildTools >= 10.0.22621.755",
       "Microsoft.WindowsAppSDK >= 1.2.221209.1",
+      "Mopups >= 1.1.1",
       "Newtonsoft.Json >= 13.0.3",
       "System.ObjectModel >= 4.3.0"
     ]
@@ -35223,6 +36193,10 @@
           "Microsoft.Maui.Maps": {
             "target": "Package",
             "version": "[7.0.59, )"
+          },
+          "Mopups": {
+            "target": "Package",
+            "version": "[1.1.1, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
@@ -35358,6 +36332,10 @@
             "target": "Package",
             "version": "[7.0.59, )"
           },
+          "Mopups": {
+            "target": "Package",
+            "version": "[1.1.1, )"
+          },
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
@@ -35436,6 +36414,10 @@
           "Microsoft.Maui.Maps": {
             "target": "Package",
             "version": "[7.0.59, )"
+          },
+          "Mopups": {
+            "target": "Package",
+            "version": "[1.1.1, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
@@ -35532,6 +36514,10 @@
             "target": "Package",
             "version": "[1.2.221209.1, )",
             "autoReferenced": true
+          },
+          "Mopups": {
+            "target": "Package",
+            "version": "[1.1.1, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",

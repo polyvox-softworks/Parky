@@ -1,3 +1,4 @@
+using Mopups.Services;
 using Newtonsoft.Json;
 using Parky.lib;
 using System.Collections.ObjectModel;
@@ -10,53 +11,56 @@ namespace Parky.Views;
 public partial class ParkListPage : ContentPage
 {
 
-    ObservableCollection<Park> parkList = new ObservableCollection<Park>();
+    ObservableCollection<Park> parkList;
+    bool deleteMode = false;
 
     public ParkListPage()
     {
         InitializeComponent();
 
-        List<Company> companyList = new List<Company>();
-        companyList = GetParkList();
+        var loadedParkList = OpenParkList();
+        parkList = new ObservableCollection<Park>(loadedParkList);
 
-        parkList = createParkList(companyList);
-
+        if (parkList.Count == 0)
+        {
+            DeleteModeLabel.IsVisible = false;
+            DeleteSwitch.IsVisible = false;
+            getStartedLabel.IsVisible = true;
+        }
+        else
+        {
+            DeleteModeLabel.IsVisible = true;
+            DeleteSwitch.IsVisible = true;
+            getStartedLabel.IsVisible = false;
+        }
         listParks.ItemsSource = parkList;
     }
-    private ObservableCollection<Park> createParkList(List<Company> companyList)
+
+    public ParkListPage(ObservableCollection<Park> inList)
     {
-        List<Park> parkList2 = new List<Park>();
+        InitializeComponent();
+        
+ 
+        parkList = inList;
+        SaveParkList();
 
-        for (int i = 0; i < companyList.Count; i++)
+        if (parkList.Count == 0)
         {
-            for (int y = 0; y < companyList[i].parks.Count; y++)
-            {
-                Park park = new Park();
-
-
-                park.name = companyList[i].parks[y].name;
-                park.id = companyList[i].parks[y].id;
-                park.country = companyList[i].parks[y].country;
-                park.continent = companyList[i].parks[y].continent;
-                park.longitude = companyList[i].parks[y].longitude;
-                park.latitude = companyList[i].parks[y].latitude;
-                park.location = new Point(Convert.ToDouble(park.latitude), Convert.ToDouble(park.longitude));
-                park.timezone = companyList[i].parks[y].timezone;
-                park.company = companyList[i].name;
-
-                //park.schedule = getParkSchedule(park.name);
-
-                parkList2.Add(park);
-
-            }
+            DeleteModeLabel.IsVisible = false;
+            DeleteSwitch.IsVisible = false;
+            getStartedLabel.IsVisible = true;
         }
-        parkList2 = parkList2.OrderBy(o => o.name).ToList();
-        ObservableCollection<Park> result = new ObservableCollection<Park>(parkList2);
-        return result;
-
+        else
+        {
+            DeleteModeLabel.IsVisible = true;
+            DeleteSwitch.IsVisible = true;
+            getStartedLabel.IsVisible = false;
+        }
+        listParks.ItemsSource = parkList;
     }
 
-    private Day getParkSchedule(string parkName)
+
+    /*private Day getParkSchedule(string parkName)
     {
         Day outDay = new Day();
 
@@ -93,7 +97,7 @@ public partial class ParkListPage : ContentPage
         }
 
         return outDay;
-    }
+    }*/
 
     public static string getBetween(string strSource, string strStart, string strEnd)
     {
@@ -106,6 +110,11 @@ public partial class ParkListPage : ContentPage
         }
 
         return "";
+    }
+
+    protected override bool OnBackButtonPressed()
+    {
+        return true;
     }
 
     private void OnAZClicked(object sender, EventArgs e) 
@@ -140,17 +149,32 @@ public partial class ParkListPage : ContentPage
 
     private async void listParks_ItemTapped(object sender, EventArgs e)
     {
-        if(listParks.SelectedItem != null)
+        if (deleteMode == true)
         {
-            Park temp = (Park)listParks.SelectedItem;
-
-            var parkDetailsPage = new ParkRidesPage(temp);
-            SearchBar.Text = string.Empty;
-
-            await Navigation.PushAsync(parkDetailsPage);
+            MauiProgram.parkList.Remove((Park)listParks.SelectedItem);
+            parkList.Remove((Park)listParks.SelectedItem);
+            listParks.ItemsSource = parkList;
+            listParks.SelectedItem = null;
+            SaveParkList();
+            if (parkList.Count == 0)
+            {
+                getStartedLabel.IsVisible = true;
+            }
         }
-        listParks.SelectedItem = null;
-        //await Shell.Current.GoToAsync($"temp", parkDetailsPage);
+        else
+        {
+            if (listParks.SelectedItem != null)
+            {
+                Park temp = (Park)listParks.SelectedItem;
+
+                var parkDetailsPage = new ParkRidesPage(temp);
+                SearchBar.Text = string.Empty;
+
+                await Navigation.PushAsync(parkDetailsPage);
+            }
+            listParks.SelectedItem = null;
+        }
+
     }
 
     private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
@@ -177,26 +201,6 @@ public partial class ParkListPage : ContentPage
         return result;
     }
 
-    private List<Company> GetParkList()
-    {
-
-        var url = "https://raw.githubusercontent.com/polyvox-softworks/Parky/main/Parky/json/parks.json";
-
-        WebRequest request = WebRequest.Create(url);
-
-        WebResponse response = request.GetResponse();
-
-        StreamReader reader = new StreamReader(response.GetResponseStream());
-
-        string responseText = reader.ReadToEnd();
-        List<Company> result = new List<Company>();
-
-        //result = JsonConvert.DeserializeObject<Company>(responseText, new JsonSerializerSettings { TraceWriter = new ConsoleTraceWriter() });
-        result = JsonConvert.DeserializeObject<List<Company>>(responseText);
-
-        return result;
-    }
-
     public async Task<Point> GetLocation()
     {
         var location = await Geolocation.GetLocationAsync();
@@ -207,10 +211,68 @@ public partial class ParkListPage : ContentPage
     private void ToolbarItem_Clicked(object sender, EventArgs e)
     {
 
-        var addParksPage = new AddParkPage();
+        var addParksPage = new AddParkPage(parkList);
         SearchBar.Text = string.Empty;
+
         _ = Navigation.PushAsync(addParksPage);
 
+ 
         listParks.SelectedItem = null;
     }
+
+    private void Switch_Toggled(object sender, ToggledEventArgs e)
+    {
+        if (DeleteSwitch.IsToggled)
+        {
+            listParks.SelectedItem = null;
+
+            deleteMode = true;
+        }
+        else
+        {
+            listParks.SelectedItem = null;
+
+            deleteMode = false;
+        }
+        
+    }
+
+    private void SaveParkList()
+    {
+        var path = FileSystem.Current.AppDataDirectory;
+        var fullPath = Path.Combine(path, "userParkList.json");
+
+        TextWriter writer = null;
+        try
+        {
+            var contentsToWriteToFile = JsonConvert.SerializeObject(parkList);
+            writer = new StreamWriter(fullPath);
+            writer.Write(contentsToWriteToFile);
+        }
+        finally
+        {
+            if (writer != null)
+                writer.Close();
+        }
+    }
+
+    private List<Park> OpenParkList()
+    {
+        var path = FileSystem.Current.AppDataDirectory;
+        var fullPath = Path.Combine(path, "userParkList.json");
+        TextReader reader = null;
+
+        try
+        {
+            reader = new StreamReader(fullPath);
+            var fileContents = reader.ReadToEnd();
+            return JsonConvert.DeserializeObject<List<Park>>(fileContents);
+        }
+        finally
+        {
+            if (reader != null)
+                reader.Close();
+        }
+    }
+
 }
