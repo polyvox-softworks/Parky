@@ -95,6 +95,7 @@ public partial class AddParkPage : ContentPage
                 park.latitude = companyList[i].parks[y].latitude;
                 park.location = new Point(Convert.ToDouble(park.latitude), Convert.ToDouble(park.longitude));
                 park.timezone = companyList[i].parks[y].timezone;
+                park.img = companyList[i].parks[y].img;
                 park.company = companyList[i].name;
 
                 //park.schedule = getParkSchedule(park.name);

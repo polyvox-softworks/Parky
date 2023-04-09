@@ -11,7 +11,7 @@
         "latitude": "37.397799",
         "longitude": "-121.974717",
         "timezone": "America/Los_Angeles",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/b/bc/California%27s_Great_America_2.JPG"
       },
       {
         "id": 58,
@@ -21,7 +21,7 @@
         "latitude": "43.843",
         "longitude": "-79.539",
         "timezone": "America/Toronto",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Wonder_Mountain_at_Canadas_Wonderland.jpg/220px-Wonder_Mountain_at_Canadas_Wonderland.jpg"
       },
       {
         "id": 59,
@@ -31,7 +31,7 @@
         "latitude": "35.1045",
         "longitude": "-80.9394",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Carowinds-Fury325Entry.JPG/220px-Carowinds-Fury325Entry.JPG"
       },
       {
         "id": 50,
@@ -41,7 +41,7 @@
         "latitude": "41.4822",
         "longitude": "-82.6835",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cedar_Point_from_the_air.jpg"
       },
       {
         "id": 69,
@@ -51,7 +51,7 @@
         "latitude": "40.577942",
         "longitude": "-75.531528",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Dorney_Park_Steel_Force_Thunderhawk.jpg/260px-Dorney_Park_Steel_Force_Thunderhawk.jpg"
       },
       {
         "id": 62,
@@ -61,7 +61,7 @@
         "latitude": "37.84",
         "longitude": "-77.445",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTilP6UtxPmi25gZJPqrcHPTq-5boCPIGpqsg&usqp=CAU"
       },
       {
         "id": 60,
@@ -71,7 +71,7 @@
         "latitude": "39.3447",
         "longitude": "-84.2686",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Kings_Island_International_Street.jpg/250px-Kings_Island_International_Street.jpg"
       },
       {
         "id": 61,
@@ -81,7 +81,7 @@
         "latitude": "33.8442",
         "longitude": "-117.9986",
         "timezone": "America/Los_Angeles",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/en/6/6f/Knott%27s_Berry_Farm.jpg"
       },
       {
         "id": 70,
@@ -91,7 +91,7 @@
         "latitude": "43.3474",
         "longitude": "-86.2789",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Michigans_Adventure_025_%287768956816%29.jpg/220px-Michigans_Adventure_025_%287768956816%29.jpg"
       },
       {
         "id": 68,
@@ -101,7 +101,7 @@
         "latitude": "44.798742",
         "longitude": "-93.453369",
         "timezone": "America/Chicago",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Corkscrew_%28Valleyfair%29_2016_1.jpg/1200px-Corkscrew_%28Valleyfair%29_2016_1.jpg"
       },
       {
         "id": 63,
@@ -111,7 +111,7 @@
         "latitude": "39.177333",
         "longitude": "-94.489028",
         "timezone": "America/Chicago",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Timber_Wolf_at_Worlds_of_Fun.jpg/250px-Timber_Wolf_at_Worlds_of_Fun.jpg"
       }
     ]
   },
@@ -127,7 +127,7 @@
         "latitude": "50.846996",
         "longitude": "2.947948",
         "timezone": "Europe/Brussels",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Bellewaerde_%28ingang_1%29.jpg/250px-Bellewaerde_%28ingang_1%29.jpg"
       },
       {
         "id": 291,
@@ -137,7 +137,7 @@
         "latitude": "46.669167",
         "longitude": "0.368889",
         "timezone": "Europe/Paris",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/0/05/Futuroscope_%28France_2014%29_06_View_from_the_Gyrotour.JPG"
       },
       {
         "id": 9,
@@ -147,7 +147,7 @@
         "latitude": "49.1341839",
         "longitude": "2.5712301",
         "timezone": "Europe/Paris",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/8/83/Goudurix_papillon.jpg"
       },
       {
         "id": 14,
@@ -157,7 +157,7 @@
         "latitude": "50.7018603",
         "longitude": "4.5940362",
         "timezone": "Europe/Brussels",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Vampirerollercoaster.jpg/250px-Vampirerollercoaster.jpg"
       },
       {
         "id": 53,
@@ -167,7 +167,7 @@
         "latitude": "52.44",
         "longitude": "5.7625",
         "timezone": "Europe/Amsterdam",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Walibi_Holland_Untamed_first_drop.jpg"
       },
       {
         "id": 301,
@@ -177,7 +177,7 @@
         "latitude": "45.621389",
         "longitude": "5.570278",
         "timezone": "Europe/Paris",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Le_Boomerang.jpg/640px-Le_Boomerang.jpg"
       }
     ]
   },
@@ -193,7 +193,7 @@
         "latitude": "35.805702",
         "longitude": "-83.528838",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/DW_Wild_Eagle.JPG/290px-DW_Wild_Eagle.JPG"
       },
       {
         "id": 10,
@@ -203,7 +203,7 @@
         "latitude": "36.6704749",
         "longitude": "-93.3370854",
         "timezone": "America/Chicago",
-		"img": ""
+		"img": "https://coasterpedia.net/w/images/thumb/c/c3/Wildfire_%28Silver_Dollar_City%29_2015_01.jpg/1000px-Wildfire_%28Silver_Dollar_City%29_2015_01.jpg"
       }
     ]
   },
@@ -219,7 +219,7 @@
         "latitude": "48.268333",
         "longitude": "7.720833",
         "timezone": "Europe/Berlin",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Blue_Fire_Megacoaster_-_Europa-Park_-_Durchfahrt_des_Loopings.jpg"
       },
       {
         "id": 309,
@@ -229,7 +229,7 @@
         "latitude": "48.26082436",
         "longitude": "7.7400571",
         "timezone": "Europe/Berlin",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Rulantica_v.2.jpg/220px-Rulantica_v.2.jpg"
       }
     ]
   },
@@ -245,7 +245,7 @@
         "latitude": "52.9874651",
         "longitude": "-1.8864769",
         "timezone": "Europe/London",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Oblivion2015.JPG/220px-Oblivion2015.JPG"
       },
       {
         "id": 3,
@@ -255,7 +255,7 @@
         "latitude": "51.3478981",
         "longitude": "-0.3173283",
         "timezone": "Europe/London",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/310812-012_CPS.jpg/220px-310812-012_CPS.jpg"
       },
       {
         "id": 12,
@@ -265,7 +265,7 @@
         "latitude": "45.4550142",
         "longitude": "10.7137527",
         "timezone": "Europe/Rome",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Raptor_Gardaland_2011.jpg"
       },
       {
         "id": 25,
@@ -275,7 +275,7 @@
         "latitude": "53.0236683",
         "longitude": "9.8781907",
         "timezone": "Europe/Berlin",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Rollercoaster_limit_heide_park_germany.jpg/640px-Rollercoaster_limit_heide_park_germany.jpg"
       },
       {
         "id": 52,
@@ -285,7 +285,7 @@
         "latitude": "55.735556",
         "longitude": "9.126111",
         "timezone": "Europe/Copenhagen",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/1/15/Legoland_Billund_%286751086171%29.jpg"
       },
       {
         "id": 279,
@@ -295,7 +295,7 @@
         "latitude": "33.126667",
         "longitude": "-117.311111",
         "timezone": "America/Los_Angeles",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Legolandcaliforniaentrance.JPG"
       },
       {
         "id": 278,
@@ -305,7 +305,7 @@
         "latitude": "48.424444",
         "longitude": "10.299722",
         "timezone": "Europe/Berlin",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/0/07/Legoland_de_Entrance.jpg"
       },
       {
         "id": 280,
@@ -315,7 +315,7 @@
         "latitude": "27.989172",
         "longitude": "-81.689936",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Legoland_Florida_1_%286827572795%29.jpg"
       },
       {
         "id": 285,
@@ -325,7 +325,7 @@
         "latitude": "35.050556",
         "longitude": "136.843333",
         "timezone": "Asia/Tokyo",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/6/6f/LEGOLAND_JAPAN_Entrance%2C_Kinjofuto_Minato_Ward_Nagoya_2022.jpg"
       },
       {
         "id": 315,
@@ -335,7 +335,7 @@
         "latitude": "37.88380399",
         "longitude": "127.6974658",
         "timezone": "Asia/Seoul",
-		"img": ""
+		"img": "https://attractionsmagazine.com/wp-content/uploads/2021/10/Legoland-Korea-Resort-Entrance-Photo-courtesy-of-Legoland-Korea-Resort.jpg"
       },
       {
         "id": 299,
@@ -345,7 +345,7 @@
         "latitude": "41.37855043",
         "longitude": "-74.31297395",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Legoland_New_York_Miniland_New_York_City.jpg/220px-Legoland_New_York_Miniland_New_York_City.jpg"
       },
       {
         "id": 27,
@@ -355,7 +355,7 @@
         "latitude": "51.4634423",
         "longitude": "-0.649915",
         "timezone": "Europe/London",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/8/81/Entrance_to_Legoland_Windsor.jpg"
       },
       {
         "id": 316,
@@ -365,7 +365,7 @@
         "latitude": "27.98688038",
         "longitude": "-81.6883981",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://visitcentralflorida.org/wp-content/uploads/2021/09/Entrance-Arch_Peppa-Pig-Theme-Park-scaled.jpg"
       },
       {
         "id": 2,
@@ -375,7 +375,7 @@
         "latitude": "51.4039456",
         "longitude": "-0.5143332",
         "timezone": "Europe/London",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Colossus-Thorpe-1.jpg/338px-Colossus-Thorpe-1.jpg"
       }
     ]
   },
@@ -391,7 +391,7 @@
         "latitude": "-26.802481",
         "longitude": "-48.614367",
         "timezone": "America/Sao_Paulo",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/8/8b/CasteloBCW.JPG"
       },
       {
         "id": 273,
@@ -401,7 +401,7 @@
         "latitude": "53.790278",
         "longitude": "-3.055556",
         "timezone": "Europe/London",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Big_One_First_Drop.jpg/220px-Big_One_First_Drop.jpg"
       },
       {
         "id": 318,
@@ -411,7 +411,7 @@
         "latitude": "41.709032",
         "longitude": "12.44673",
         "timezone": "Europe/Rome",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Altair_cinecitta_world.jpg/1200px-Altair_cinecitta_world.jpg"
       },
       {
         "id": 290,
@@ -421,7 +421,7 @@
         "latitude": "56.425933",
         "longitude": "10.550564",
         "timezone": "Europe/Copenhagen",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Piraten_at_Djurs_Sommerland.jpg/220px-Piraten_at_Djurs_Sommerland.jpg"
       },
       {
         "id": 160,
@@ -431,7 +431,7 @@
         "latitude": "51.650278",
         "longitude": "5.048056",
         "timezone": "Europe/Berlin",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Efteling_Entrance.jpg"
       },
       {
         "id": 317,
@@ -441,7 +441,7 @@
         "latitude": "50.000115",
         "longitude": "19.409078",
         "timezone": "Europe/Warsaw",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Zadra_%28Energylandia%29_-_First_Drop.jpg/220px-Zadra_%28Energylandia%29_-_First_Drop.jpg"
       },
       {
         "id": 18,
@@ -451,7 +451,7 @@
         "latitude": "57.2713353",
         "longitude": "9.6505668",
         "timezone": "Europe/Berlin",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/3/38/Farup_Sommerland_entrance.jpg"
       },
       {
         "id": 166,
@@ -461,7 +461,7 @@
         "latitude": "59.323333",
         "longitude": "18.096667",
         "timezone": "Europe/Berlin",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Gr%C3%B6na_Lund_June_2015.jpg/266px-Gr%C3%B6na_Lund_June_2015.jpg"
       },
       {
         "id": 15,
@@ -471,7 +471,7 @@
         "latitude": "40.2887809",
         "longitude": "-76.6547469",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/1/15/Hersheypark.jpg"
       },
       {
         "id": 314,
@@ -481,7 +481,7 @@
         "latitude": "40.879",
         "longitude": "-76.505",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://coasterpedia.net/w/images/thumb/e/e3/Phoenix_Lift_Hill.jpg/1000px-Phoenix_Lift_Hill.jpg"
       },
       {
         "id": 303,
@@ -491,7 +491,7 @@
         "latitude": "46.507222",
         "longitude": "3.630556",
         "timezone": "Europe/Paris",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Le_Twist_au_PAL.JPG/220px-Le_Twist_au_PAL.JPG"
       },
       {
         "id": 11,
@@ -501,7 +501,7 @@
         "latitude": "57.6952191",
         "longitude": "11.9924641",
         "timezone": "Europe/Stockholm",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/8/8b/241106_Liseberg.jpg"
       },
       {
         "id": 320,
@@ -511,7 +511,7 @@
         "latitude": "48.86901442",
         "longitude": "2.78646006",
         "timezone": "Europe/Paris",
-		"img": ""
+		"img": "https://aws-tiqets-cdn.imgix.net/images/content/4f69e510cfa246559091f933a4a7c247.jpeg?auto=format&fit=crop&h=800&ixlib=python-3.2.1&q=70&w=800&s=95e23409b538b0d95c3cb45856ba7611"
       },
       {
         "id": 49,
@@ -521,7 +521,7 @@
         "latitude": "50.948542",
         "longitude": "-1.552557",
         "timezone": "Europe/London",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Paulton_Park%27s_Lost_Kingdom.jpg"
       },
       {
         "id": 56,
@@ -531,7 +531,7 @@
         "latitude": "50.8",
         "longitude": "6.879444",
         "timezone": "Europe/Berlin",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/1/17/FLY-Phantasialand-1.jpg"
       },
       {
         "id": 305,
@@ -541,7 +541,7 @@
         "latitude": "51.396",
         "longitude": "5.986",
         "timezone": "Europe/Amsterdam",
-		"img": ""
+		"img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/67/be/d7/attractiepark-toverland.jpg?w=1200&h=-1&s=1"
       },
       {
         "id": 304,
@@ -551,7 +551,7 @@
         "latitude": "45.813449",
         "longitude": "2.940501",
         "timezone": "Europe/Paris",
-		"img": ""
+		"img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/7b/e4/0d/vulcania-partez-en-exploration.jpg?w=1200&h=-1&s=1"
       }
     ]
   },
@@ -567,7 +567,7 @@
         "latitude": "51.201111",
         "longitude": "4.905",
         "timezone": "Europe/Brussels",
-		"img": ""
+		"img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/af/6a/a2/typhoon.jpg?w=1200&h=1200&s=1"
       },
       {
         "id": 312,
@@ -577,7 +577,7 @@
         "latitude": "40.38682123",
         "longitude": "-79.86212422",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/2/29/Kennywood_-_48555800592.jpg"
       },
       {
         "id": 313,
@@ -587,7 +587,7 @@
         "latitude": "41.64330388",
         "longitude": "-72.92274692",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://www.lakecompounce.com/content/lkc/en/tickets---passes/tickets/_jcr_content/responsiveGrid/cc45_listsegementsca/ca12-0/image.coreimg.jpeg/1674174892426/lake-compounce-zoomerang.jpeg"
       },
       {
         "id": 310,
@@ -597,7 +597,7 @@
         "latitude": "51.6206067",
         "longitude": "6.97212649",
         "timezone": "Europe/Berlin",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Moviepark-Tor.jpg/225px-Moviepark-Tor.jpg"
       },
       {
         "id": 321,
@@ -607,7 +607,7 @@
         "latitude": "40.411289",
         "longitude": "-3.751789",
         "timezone": "Europe/Madrid",
-		"img": ""
+		"img": "https://imagenes.elpais.com/resizer/2q9nthrXeASrsds-v3rf8KRkCEk=/980x980/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/LON77XZJHV6BUIS345ZIJO7KQA.jpg"
       },
       {
         "id": 298,
@@ -617,7 +617,7 @@
         "latitude": "40.23",
         "longitude": "-3.5937",
         "timezone": "Europe/Madrid",
-		"img": ""
+		"img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/9a/ae/01/entrada-parque-warner.jpg?w=1200&h=-1&s=1"
       }
     ]
   },
@@ -633,7 +633,7 @@
         "latitude": "49.319722",
         "longitude": "8.294722",
         "timezone": "Europe/Berlin",
-		"img": ""
+		"img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/25/9b/96/photo0jpg.jpg?w=1200&h=1200&s=1"
       },
       {
         "id": 54,
@@ -643,7 +643,7 @@
         "latitude": "51.079722",
         "longitude": "2.596944",
         "timezone": "Europe/Brussels",
-		"img": ""
+		"img": "https://themeparkreports.files.wordpress.com/2021/08/plopsaland-de-panne-september-2021-18.jpg"
       }
     ]
   },
@@ -659,7 +659,7 @@
         "latitude": "41.0878286",
         "longitude": "1.1572475",
         "timezone": "Europe/Madrid",
-		"img": ""
+		"img": "https://media.portaventuraworld.com/mediaManager/image/492e8ddd0a1f2c5a83c8a88bc707822f2a7776a2de2409e1945c96ea68ee3db2.jpg?tx=ar_0.91,c_crop/w_465,h_510,c_fit"
       },
       {
         "id": 19,
@@ -669,7 +669,7 @@
         "latitude": "41.0878286",
         "longitude": "1.1572475",
         "timezone": "Europe/Madrid",
-		"img": ""
+		"img": "https://www.independent.ie/life/travel/13985/34789862.ece/AUTOCROP/w620/portaventura_park_34.jpg"
       }
     ]
   },
@@ -685,7 +685,7 @@
         "latitude": "28.41543304",
         "longitude": "-81.45566791",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://aquatica.com/orlando/-/media/aquatica-orlando/images/rides/reef-plunge/660x410-apo-reef-plunge-keyart.ashx?version=1_202110051214&mw=660&mh=410&as=0&hash=C2D7D5348F168614FE80A52963B0DF7BC14418BD"
       },
       {
         "id": 306,
@@ -695,7 +695,7 @@
         "latitude": "29.45930638",
         "longitude": "-98.69817399",
         "timezone": "America/Denver",
-		"img": ""
+		"img": "https://aquatica.com/san-antonio/-/media/aquatica-san-antonio/images/rd-new-and-noteworthy/1199x496_newandnotworthy_riptiderace.ashx"
       },
       {
         "id": 24,
@@ -705,7 +705,7 @@
         "latitude": "28.0363515",
         "longitude": "-82.4224574",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://planetofhotels.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__1880bp/public/hero_banner/Busch_Gardens_Amusement_Park.jpg"
       },
       {
         "id": 23,
@@ -715,7 +715,7 @@
         "latitude": "37.235165",
         "longitude": "-76.6465769",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://www.themeparkinsider.com/art/reviews/bgw.jpg"
       },
       {
         "id": 21,
@@ -725,7 +725,7 @@
         "latitude": "28.4114555",
         "longitude": "-81.4617047",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://seaworld.com/orlando/-/media/seaworld-orlando/images/rides/icebreaker/2021/357x229-swo-2021-ice-breaker.ashx"
       },
       {
         "id": 22,
@@ -735,7 +735,7 @@
         "latitude": "29.45836",
         "longitude": "-98.700551",
         "timezone": "America/Denver",
-		"img": ""
+		"img": "https://i0.wp.com/expeditionthemepark.com/wp-content/uploads/2019/12/20191125_131804-scaled-e1575227910230.jpg?fit=2553%2C1459&ssl=1"
       },
       {
         "id": 20,
@@ -745,7 +745,7 @@
         "latitude": "32.7647903",
         "longitude": "-117.2266083",
         "timezone": "America/Los_Angeles",
-		"img": ""
+		"img": "https://ewscripps.brightspotcdn.com/dims4/default/0d3c5b8/2147483647/strip/true/crop/5220x2936+1+331/resize/1280x720!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F11%2F81%2F391e29e142c082bc0e75ed61a0f7%2Fsea-world-emperor-roller-coaster.jpg"
       },
       {
         "id": 29,
@@ -755,7 +755,7 @@
         "latitude": "29.6351835",
         "longitude": "-95.3269418",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://www.gannett-cdn.com/media/2022/01/14/USATODAY/usatsports/Sesame-Place-SanDiego.jpg"
       },
       {
         "id": 96,
@@ -765,7 +765,7 @@
         "latitude": "37.26258412",
         "longitude": "-76.63706537",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/ad/0f/3a/great-day-at-water-country.jpg?w=1200&h=-1&s=1"
       }
     ]
   },
@@ -781,7 +781,7 @@
         "latitude": "35.584845",
         "longitude": "-97.44099",
         "timezone": "America/Chicago",
-		"img": ""
+		"img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/96/d7/89/ednor-l-attaque.jpg?w=1200&h=1200&s=1"
       },
       {
         "id": 48,
@@ -801,7 +801,7 @@
         "latitude": "38.9062",
         "longitude": "-76.77257",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_limit,q_75,w_1200/https://assets.simpleviewinc.com/simpleview/image/upload/crm/princegeorgesmd/MD-Day-Photo-Original-_538810A0-CAE6-4B6C-9798206A78712E28_b4d0c0af-baec-44c2-81ba52790b097a4a.jpg"
       },
       {
         "id": 281,
@@ -811,7 +811,7 @@
         "latitude": "42.92851",
         "longitude": "-78.38488",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://media.bizj.us/view/img/10917126/darienlake-2016*1200xx3000-1688-0-156.jpg"
       },
       {
         "id": 33,
@@ -821,7 +821,7 @@
         "latitude": "38.1378",
         "longitude": "122.23",
         "timezone": "America/Los_Angeles",
-		"img": ""
+		"img": "https://sf-static.sixflags.com/wp-content/uploads/2020/04/sfdk_boomerang_1440x1533.jpg"
       },
       {
         "id": 39,
@@ -831,7 +831,7 @@
         "latitude": "29.5995",
         "longitude": "-98.6094",
         "timezone": "America/Chicago",
-		"img": ""
+		"img": "https://cloudfront-us-east-1.images.arcpublishing.com/gmg/YARGV743VNCJVCQSDHAU3SVRCA.jpg"
       },
       {
         "id": 37,
@@ -841,7 +841,7 @@
         "latitude": "40.137697",
         "longitude": "-74.440458",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://visitnj.org/sites/default/files/26849_640x487.jpg"
       },
       {
         "id": 38,
@@ -851,7 +851,7 @@
         "latitude": "42.369997",
         "longitude": "-87.935794",
         "timezone": "America/Chicago",
-		"img": ""
+		"img": "https://chicagoparent.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2021/04/six-flags-great-america-family-guide-photo-provided.jpg"
       },
       {
         "id": 45,
@@ -861,7 +861,7 @@
         "latitude": "43.350991",
         "longitude": "-73.690112",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://www.sixflagsgreatescapelodge.com/files/2019/02/TGE_comet12-768x510.jpg"
       },
       {
         "id": 44,
@@ -871,7 +871,7 @@
         "latitude": "40.137697",
         "longitude": "-74.440458",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://sf-static.sixflags.com/wp-content/uploads/ron8644-1440x720.jpg"
       },
       {
         "id": 40,
@@ -881,7 +881,7 @@
         "latitude": "32.7557",
         "longitude": "-97.070222",
         "timezone": "America/Chicago",
-		"img": ""
+		"img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/51/d7/a1/six-flags-hurricane-harbor.jpg?w=1200&h=1200&s=1"
       },
       {
         "id": 293,
@@ -891,7 +891,7 @@
         "latitude": "37.974",
         "longitude": "-122.0512",
         "timezone": "America/Los_Angeles",
-		"img": ""
+		"img": "https://www.discoverlosangeles.com/sites/default/files/business/six-flags-hurricane-harbor-los-angeles/h_2000-crm-la-hurricanharbour0-a41d7d185056a36_a41d7edf-5056-a36f-2365d6b887dfb057.jpg"
       },
       {
         "id": 41,
@@ -911,7 +911,7 @@
         "latitude": "18.8967",
         "longitude": "-98.9754",
         "timezone": "America/Mexico_City",
-		"img": ""
+		"img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ff/81/70/photo0jpg.jpg?w=1200&h=-1&s=1"
       },
       {
         "id": 294,
@@ -921,7 +921,7 @@
         "latitude": "35.461389",
         "longitude": "-97.588682",
         "timezone": "America/Chicago",
-		"img": ""
+		"img": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_limit,q_75,w_1200/https://assets.simpleviewinc.com/simpleview/image/upload/crm/oklahoma/White-Water-Bay10_5ac9479e-5056-a36a-06f0a33bee34471d.jpg"
       },
       {
         "id": 295,
@@ -931,7 +931,7 @@
         "latitude": "33.6962",
         "longitude": "-112.1503",
         "timezone": "America/Phoenix",
-		"img": ""
+		"img": "https://sf-static.sixflags.com/wp-content/uploads/splash-island-scaled.jpg"
       },
       {
         "id": 297,
@@ -941,7 +941,7 @@
         "latitude": "42.370244",
         "longitude": "-87.935916",
         "timezone": "America/Chicago",
-		"img": ""
+		"img": "https://sf-static.sixflags.com/wp-content/uploads/2020/05/splash_magic_river1_1-1024x683.jpg"
       },
       {
         "id": 296,
@@ -951,7 +951,7 @@
         "latitude": "30.5088",
         "longitude": "-95.4919",
         "timezone": "America/Chicago",
-		"img": ""
+		"img": "https://sf-static.sixflags.com/wp-content/uploads/Big-spin-pic6.png"
       },
       {
         "id": 32,
@@ -961,7 +961,7 @@
         "latitude": "34.4238",
         "longitude": "-118.5971",
         "timezone": "America/Los_Angeles",
-		"img": ""
+		"img": "https://sf-static.sixflags.com/wp-content/uploads/2020/04/the_new_revolution_-_virtual_reality_coaster_2_1-1-scaled.jpg"
       },
       {
         "id": 47,
@@ -971,7 +971,7 @@
         "latitude": "19.295",
         "longitude": "-99.209",
         "timezone": "America/Toronto",
-		"img": ""
+		"img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/6a/2d/1b/six-flags-mexico.jpg?w=1200&h=1200&s=1"
       },
       {
         "id": 43,
@@ -981,7 +981,7 @@
         "latitude": "42.0377",
         "longitude": "-72.6157",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://sf-static.sixflags.com/wp-content/uploads/2020/04/2017_sfne_flashback_3_0.jpg"
       },
       {
         "id": 35,
@@ -991,7 +991,7 @@
         "latitude": "33.76787",
         "longitude": "-84.55065",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://365atlantatraveler.com/wp-content/uploads/2022/06/six-flags-1275x850.jpg"
       },
       {
         "id": 34,
@@ -1001,7 +1001,7 @@
         "latitude": "32.7557",
         "longitude": "-97.070222",
         "timezone": "America/Chicago",
-		"img": ""
+		"img": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_limit,q_75,w_1200/https://assets.simpleviewinc.com/simpleview/image/upload/crm/arlington/Batman-The-Ride-ACVB-b7d06a37e1f9ba6_b7d06b9f-b499-09f7-6fefb3bc10fe564d.jpg"
       },
       {
         "id": 36,
@@ -1011,7 +1011,7 @@
         "latitude": "38.512806",
         "longitude": "-90.67505",
         "timezone": "America/Chicago",
-		"img": ""
+		"img": "https://www.laronde.com/wp-content/uploads/thrill-rides.jpg"
       },
       {
         "id": 46,
@@ -1021,7 +1021,7 @@
         "latitude": "33.958056",
         "longitude": "-84.521389",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://sf-static.sixflags.com/wp-content/uploads/atlanta-ocean-wave-pool-1-scaled.jpg"
       }
     ]
   },
@@ -1037,7 +1037,7 @@
         "latitude": "28.472243",
         "longitude": "-81.4678556",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/09/e0/eb/universal-s-islands-of.jpg?w=1200&h=-1&s=1"
       },
       {
         "id": 65,
@@ -1047,7 +1047,7 @@
         "latitude": "28.4749822",
         "longitude": "-81.466497",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/69/f3/0c/universal-orlando-resort.jpg?w=1200&h=1200&s=1"
       },
       {
         "id": 66,
@@ -1057,7 +1057,7 @@
         "latitude": "34.137261",
         "longitude": "-118.355516",
         "timezone": "America/Los_Angeles",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Universal_archway_2019.jpg/285px-Universal_archway_2019.jpg"
       },
       {
         "id": 284,
@@ -1067,7 +1067,7 @@
         "latitude": "34.665482",
         "longitude": "135.43236",
         "timezone": "Asia/Tokyo",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/USJ_5years.JPG/1200px-USJ_5years.JPG"
       },
       {
         "id": 67,
@@ -1077,8 +1077,8 @@
         "latitude": "28.4623",
         "longitude": "-81.4707",
         "timezone": "America/New_York",
-		"img": ""
-      }
+		"img": "https://www.universalorlandoyouth.com/Images/norm_UVB_01_556x378_31312_tcm88-65294.jpg"
+	  }
     ]
   },
   {
@@ -1103,7 +1103,7 @@
         "latitude": "33.8058755",
         "longitude": "-117.9194899",
         "timezone": "America/Los_Angeles",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Pixarpiersunset2019_%28cropped%29.jpg"
       },
       {
         "id": 7,
@@ -1113,7 +1113,7 @@
         "latitude": "28.3575294",
         "longitude": "-81.5582714",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,g_xy_center,h_640,q_75,w_640,x_723,y_1332/v1/clients/orlandofl/2317_hollywood_tower_close_up_e97ee1da-0a8d-40af-af53-fef3392bd5d2.jpg"
       },
       {
         "id": 6,
@@ -1123,7 +1123,7 @@
         "latitude": "28.417663",
         "longitude": "-81.581212",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Cinderella_Castle_October_1.jpg"
       },
       {
         "id": 16,
@@ -1133,7 +1133,7 @@
         "latitude": "33.8104856",
         "longitude": "-117.9190001",
         "timezone": "America/Los_Angeles",
-		"img": ""
+		"img": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/disneyland/attractions/disneyland/sleeping-beauty-castle-walkthrough/sleeping-beauty-castle-exterior-16x9.jpg?1593556896598"
       },
       {
         "id": 31,
@@ -1143,7 +1143,7 @@
         "latitude": "22.3133",
         "longitude": "114.0433",
         "timezone": "Asia/Hong_Kong",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/c/cd/20201019_Castle_of_Magical_Dreams.jpg"
       },
       {
         "id": 4,
@@ -1153,7 +1153,7 @@
         "latitude": "48.8722344",
         "longitude": "2.7758079",
         "timezone": "Europe/Paris",
-		"img": ""
+		"img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/92/e4/97/disneyland-paris.jpg?w=1200&h=1200&s=1"
       },
       {
         "id": 5,
@@ -1163,7 +1163,7 @@
         "latitude": "28.374694",
         "longitude": "-81.549404",
         "timezone": "America/New_York",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/1/16/Spaceship_Earth_and_entry_plaza_2021.jpg"
       },
       {
         "id": 30,
@@ -1173,7 +1173,7 @@
         "latitude": "31.144",
         "longitude": "121.657",
         "timezone": "Asia/Shanghai",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Enchanted_Storybook_Castle.jpg/1200px-Enchanted_Storybook_Castle.jpg"
       },
       {
         "id": 275,
@@ -1183,7 +1183,7 @@
         "latitude": "35.627055",
         "longitude": "139.889097",
         "timezone": "Asia/Tokyo",
-		"img": ""
+		"img": "https://www.japan-guide.com/g22/3016_04.jpg"
       },
       {
         "id": 274,
@@ -1193,7 +1193,7 @@
         "latitude": "35.634848",
         "longitude": "139.879295",
         "timezone": "Asia/Tokyo",
-		"img": ""
+		"img": "https://upload.wikimedia.org/wikipedia/commons/3/3c/TDL_Cinderella_Castle_New_Color.jpg"
       },
       {
         "id": 28,
@@ -1203,7 +1203,7 @@
         "latitude": "48.8722344",
         "longitude": "2.7758079",
         "timezone": "Europe/Paris",
-		"img": ""
+		"img": "https://media.disneylandparis.com/d4th/en-usd/images/N036525_2050jan31_walt-disney-studio-key-visual_5-2_tcm1861-248673.jpg?w=1920"
       }
     ]
   }

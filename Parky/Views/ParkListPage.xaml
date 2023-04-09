@@ -127,12 +127,14 @@
 
                         <Label Grid.Column="1"
                                    Text="{Binding name}"
-                                   FontAttributes="Bold" />
+                                   FontAttributes="Bold" 
+                                    Padding="10"/>
                         <Label Grid.Row="1"
                                    Grid.Column="1"
                                    Text="{Binding company}"
                                    FontAttributes="Italic"
-                                   VerticalOptions="End" />
+                                   VerticalOptions="End"
+                                    Padding="10"/>
 
                     </Grid>
                 </DataTemplate>
