@@ -108,7 +108,9 @@
             <CollectionView.ItemTemplate>
 
                 <DataTemplate>
-                    <Grid Padding="10">
+                    <Border
+                        StrokeShape="RoundRectangle 10,10,10,10">
+                        <Grid Padding="10">
 
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto" />
@@ -120,23 +122,24 @@
                         </Grid.ColumnDefinitions>
 
                         <Image Grid.RowSpan="2"
-                       Source="{Binding img}"
-                       Aspect="AspectFill"
-                       HeightRequest="60"
-                       WidthRequest="60" />
+                               Source="{Binding img}"
+                               Aspect="AspectFill"
+                               HeightRequest="60"
+                               WidthRequest="60" /> 
 
                         <Label Grid.Column="1"
-                                   Text="{Binding name}"
-                                   FontAttributes="Bold" 
-                                    Padding="10"/>
+                               Text="{Binding name}"
+                               FontAttributes="Bold" 
+                               Padding="10"/>
+                        
                         <Label Grid.Row="1"
-                                   Grid.Column="1"
-                                   Text="{Binding company}"
-                                   FontAttributes="Italic"
-                                   VerticalOptions="End"
-                                    Padding="10"/>
-
-                    </Grid>
+                               Grid.Column="1"
+                               Text="{Binding company}"
+                               FontAttributes="Italic"
+                               VerticalOptions="End"
+                               Padding="10"/>
+                        </Grid>
+                    </Border>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>

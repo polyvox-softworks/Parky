@@ -17,6 +17,7 @@ namespace Parky.lib
         public string last_updated { get; set; }
         public string inLand { get; set; }
         public Color waitCol { get; set; }
+        public int fontSize { get; set; }
         public int wait_time_true { get; set; }
     }
 }

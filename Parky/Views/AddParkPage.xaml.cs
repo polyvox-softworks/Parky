@@ -86,7 +86,6 @@ public partial class AddParkPage : ContentPage
             {
                 Park park = new Park();
 
-
                 park.name = companyList[i].parks[y].name;
                 park.id = companyList[i].parks[y].id;
                 park.country = companyList[i].parks[y].country;

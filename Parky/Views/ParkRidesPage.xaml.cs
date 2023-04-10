@@ -1,4 +1,5 @@
 using Microsoft.Maui.Graphics.Converters;
+using Microsoft.Maui.Graphics.Text;
 using Newtonsoft.Json;
 using Parky.lib;
 using System.Collections.ObjectModel;
@@ -8,7 +9,7 @@ namespace Parky.Views;
 public partial class ParkRidesPage : ContentPage
 {
 
-    public List<Ride> rideList;
+    public ObservableCollection<Ride> rideList;
     public Park park;
 
     public ParkRidesPage(Park inPark)
@@ -29,7 +30,7 @@ public partial class ParkRidesPage : ContentPage
     public async void LoadPage()
     {
 
-        rideList = new List<Ride>();
+        rideList = new ObservableCollection<Ride>();
         this.Title = park.name;
 
         park = await GetWaitTimesAsync(park);
@@ -50,9 +51,11 @@ public partial class ParkRidesPage : ContentPage
                         ColorTypeConverter converter = new ColorTypeConverter();
                         Color color = (Color)(converter.ConvertFromInvariantString("black"));
                         temp.waitCol = color;
+                        temp.fontSize = 12;
                     }
                     else
                     {
+                        temp.fontSize = 30;
                         temp.wait_time_true = Convert.ToInt32(temp.wait_time);
                         if (Convert.ToInt32(temp.wait_time) <= 30)
                         {
@@ -77,6 +80,10 @@ public partial class ParkRidesPage : ContentPage
                             ColorTypeConverter converter = new ColorTypeConverter();
                             Color color = (Color)(converter.ConvertFromInvariantString("#6A2E35"));
                             temp.waitCol = color;
+                            if (Convert.ToInt32(temp.wait_time) >= 100)
+                            {
+                                temp.fontSize = 20;
+                            }
                         }
                     }
                     rideList.Add(temp);
@@ -99,16 +106,18 @@ public partial class ParkRidesPage : ContentPage
                     temp.waitCol = color;
                     temp.wait_time = "Closed";
                     temp.wait_time_true = 1000000000;
+                    temp.fontSize = 12;
                 }
                 else
                 {
                     temp.wait_time_true = Convert.ToInt32(temp.wait_time);
-
+                    temp.fontSize = 30;
                     if (Convert.ToInt32(temp.wait_time) <= 30)
                     {
                         ColorTypeConverter converter = new ColorTypeConverter();
                         Color color = (Color)(converter.ConvertFromInvariantString("green"));
                         temp.waitCol = color;
+                        
                     }
                     else if (Convert.ToInt32(temp.wait_time) < 60)
                     {
@@ -127,13 +136,19 @@ public partial class ParkRidesPage : ContentPage
                         ColorTypeConverter converter = new ColorTypeConverter();
                         Color color = (Color)(converter.ConvertFromInvariantString("#6A2E35"));
                         temp.waitCol = color;
+
+                        if(Convert.ToInt32(temp.wait_time) >= 100)
+                        {
+                            temp.fontSize = 20;
+                        }
+                        
                     }
                 }
                 rideList.Add(temp);
             }
         }
 
-        rideList = rideList.OrderBy(o => o.name).ToList();
+        rideList = new ObservableCollection<Ride>(rideList.OrderBy(o => o.name).ToList());
 
         if (rideList.Count > 0)
         {
@@ -188,24 +203,29 @@ public partial class ParkRidesPage : ContentPage
 
     private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
     {
-        List<Ride> rideList2 = new List<Ride>();
+        ObservableCollection<Ride> rideList2 = new ObservableCollection<Ride>();
         rideList2 = searchRide(rideList, ((SearchBar)sender).Text);
 
         var searchList = new ObservableCollection<Ride>(rideList2);
         listRides.ItemsSource = rideList2;
     }
 
-    private List<Ride> searchRide(List<Ride> inRideList, string inString)
+    private ObservableCollection<Ride> searchRide(ObservableCollection<Ride> inRideList, string inString)
     {
         List<Ride> rideList2 = new List<Ride>();
-        for (int i = 0; i < inRideList.Count; i++)
+        try
         {
-            if (inRideList[i].name.ToLower().Contains(inString.ToLower()))
+            for (int i = 0; i < inRideList.Count; i++)
             {
-                rideList2.Add(inRideList[i]);
+                if (inRideList[i].name.ToLower().Contains(inString.ToLower()))
+                {
+                    rideList2.Add(inRideList[i]);
+                }
             }
         }
-        return rideList2;
+        catch (Exception) { }
+        ObservableCollection<Ride> result = new ObservableCollection<Ride>(rideList2);
+        return result;
     }
 
     async Task<Park> GetWaitTimesAsync(Park park)
