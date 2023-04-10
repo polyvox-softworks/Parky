@@ -117,7 +117,9 @@ public partial class AddParkPage : ContentPage
 
         var url = "https://raw.githubusercontent.com/polyvox-softworks/Parky/main/Parky/json/parks.json";
 
+#pragma warning disable SYSLIB0014 // Type or member is obsolete
         WebRequest request = WebRequest.Create(url);
+#pragma warning restore SYSLIB0014 // Type or member is obsolete
 
         WebResponse response = request.GetResponse();
 

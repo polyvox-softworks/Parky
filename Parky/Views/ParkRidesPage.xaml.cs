@@ -195,7 +195,7 @@ public partial class ParkRidesPage : ContentPage
 
         Ride temp = (Ride)listRides.SelectedItem;
 
-        var rideDetailsPage = new SingleRidePage(temp);
+        var rideDetailsPage = new SingleRidePage(temp, this.park);
         SearchBar.Text = string.Empty;
         _ = Navigation.PushAsync(rideDetailsPage);
 

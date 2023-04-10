@@ -1,13 +1,17 @@
 using Microsoft.Maui.Graphics.Converters;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Parky.lib;
+using System.Text.RegularExpressions;
 
 namespace Parky.Views;
 
 [QueryProperty(nameof(ride), "ride")]
 public partial class SingleRidePage : ContentPage
 {
+    public int rideCountNum;
     public Ride ride { get; set; }
+    public Park inPark { get; set; }
     public SingleRidePage()
     {
         InitializeComponent();
@@ -19,17 +23,27 @@ public partial class SingleRidePage : ContentPage
         base.OnNavigatedTo(args);
     }
 
-    public SingleRidePage(Ride ride)
+    public SingleRidePage(Ride ride, Park park)
     {
         InitializeComponent();
         this.ride = ride;
+        inPark = park;
         OnLoad();
     }
 
     public void OnLoad()
     {
         this.Title = ride.name;
+        try
+        {
+            rideCountNum = OpenRideCount();
+            rideCount.Text = rideCountNum.ToString();
+        }
+        catch (Exception)
+        {
 
+        }
+        
         haveYouLabel.Text = "test";
 
         if (!ride.is_open)
@@ -75,5 +89,71 @@ public partial class SingleRidePage : ContentPage
             rideWait.Text = "\n" + ride.wait_time + " minutes.";
         }
         rideWait.TextColor = ride.waitCol;
+    }
+
+    private void Button_Clicked_Add(object sender, EventArgs e)
+    {
+        int count = Convert.ToInt32(rideCount.Text);
+        count++;
+        rideCount.Text = count.ToString();
+        rideCountNum = count;
+        SaveCount();
+    }
+
+    private void Button_Clicked_Sub(object sender, EventArgs e)
+    {
+        int count = Convert.ToInt32(rideCount.Text);
+        if(count > 0)
+        {
+            count--;
+        }
+        rideCountNum = count;
+        rideCount.Text = count.ToString();
+        SaveCount();
+    }
+    private void SaveCount()
+    {
+        var path = FileSystem.Current.AppDataDirectory;
+        string fullPath = Path.Combine(path, inPark.name + "rideCount" + ride.name + ".txt");
+        fullPath = Regex.Replace(fullPath, "[']", "", RegexOptions.Compiled);
+        fullPath = fullPath.Replace(" ", String.Empty);
+
+        TextWriter writer = null;
+        try
+        {
+            FileStream fileStream = new FileStream(fullPath, FileMode.Create, FileAccess.Write);
+            var contentsToWriteToFile = rideCountNum;
+            writer = new StreamWriter(fullPath);
+            writer.Write(contentsToWriteToFile);
+        }
+        catch (Exception)
+        {
+
+        }
+        finally
+        {
+            if (writer != null)
+                writer.Close();
+        }
+    }
+    private int OpenRideCount()
+    {
+        var path = FileSystem.Current.AppDataDirectory;
+        var fullPath = Path.Combine(path, inPark.name + "rideCount" + ride.name + ".txt");
+        fullPath = Regex.Replace(fullPath, "[']", "", RegexOptions.Compiled);
+        fullPath = fullPath.Replace(" ", String.Empty);
+        TextReader reader = null;
+
+        try
+        {
+            reader = new StreamReader(fullPath);
+            var fileContents = reader.ReadToEnd();
+            return Convert.ToInt32(fileContents);
+        }
+        finally
+        {
+            if (reader != null)
+                reader.Close();
+        }
     }
 }

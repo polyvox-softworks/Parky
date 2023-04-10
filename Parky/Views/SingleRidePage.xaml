@@ -7,16 +7,16 @@
 
     <Grid
         Padding="5"
-        RowDefinitions="80,50,*,*"
-        ColumnDefinitions="*,*,*,*">
-        
+        RowDefinitions="80,50,70,40"
+        ColumnDefinitions="150,50,50,50,50">
+
         <Label TextColor="Black"
                Text="Ride Information"
                FontSize="20"
                FontAttributes="Bold" 
                Grid.Row="0"
                Grid.ColumnSpan="2"/>
-        
+
         <Label TextColor="Black"
                Text="Current Wait"
                FontSize="20"
@@ -34,11 +34,35 @@
 
         <Label 
                x:Name="haveYouLabel"
-               
+               Text="Number of rides:"
                FontSize="20"
                FontAttributes="Bold" 
-               Grid.Row="2"
+               Grid.Row="3"
                Padding="5"
                Grid.ColumnSpan="2"/>
+        
+        <Button
+            Grid.Row="3"
+            Grid.Column="2"
+            Text="-"
+            Clicked="Button_Clicked_Sub">
+            
+        </Button>
+        <Label 
+               x:Name="rideCount"
+               Text="0"
+               FontSize="20"
+               FontAttributes="Bold" 
+               Grid.Row="3"
+               Padding="5"
+               Grid.Column="3"
+               HorizontalTextAlignment="Center"/>
+        <Button
+            Grid.Row="3"
+            Grid.Column="4"
+            Text="+"
+            Clicked="Button_Clicked_Add">
+
+        </Button>
     </Grid>
 </ContentPage>
